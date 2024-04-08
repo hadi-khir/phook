@@ -1,6 +1,6 @@
-import { join } from 'path'
-import type { Config } from 'tailwindcss'
-import { skeleton } from '@skeletonlabs/tw-plugin'
+import { skeleton } from '@skeletonlabs/tw-plugin';
+import { join } from 'path';
+import type { Config } from 'tailwindcss';
 
 export default {
 	darkMode: 'class',
@@ -16,6 +16,14 @@ export default {
 						name: 'skeleton',
 						enhancements: true,
 					},
+					{
+						name: "modern",
+						enhancements: true
+					},
+					{
+						name: "vintage",
+						enhancements: true
+					}
 				],
 			},
 		}),

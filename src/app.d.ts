@@ -12,6 +12,7 @@ declare namespace App {
 			COUNTER: DurableObjectNamespace;
 		};
 		context: {
+			// eslint-disable-next-line @typescript-eslint/no-explicit-any
 			waitUntil(promise: Promise<any>): void;
 		};
 		caches: CacheStorage & { default: Cache }
